@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 500px;
+    height: 24em;
     justify-content: center
 }
 
@@ -35,12 +35,12 @@
 
 .item-title {
     color : #333;
-    padding: 30;
+    padding: 1em;
     display: block;
 }
 
 .item-subtitle{
-    font-size: 32px;
+    font-size: 23px;
     letter-spacing: -1px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -54,19 +54,21 @@
     font-family: 'Open Sans', sans-serif;
     display: block;
     font-size: 38;
-    padding: 30 30 0 30;
+    padding: 0 30 0 30;
     font-weight: bold;
     color: darkred;
 }
 
 .main-item-subtitle{
     font-family: 'Open Sans', sans-serif;
-    font-size: 38;
+    font-size: 15;
+    color: darkred;
     padding: 30 30 0 30;
-    color: red;
     display: block;
 }
 
-.main-item li{
-    color: blue;
+.img-bg {
+    background-image: url("/img/alemanha22.jpg");
+background-size: 100%;
+    background-repeat:   no-repeat; 
 }
