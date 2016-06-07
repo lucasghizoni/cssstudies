@@ -2,11 +2,11 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 24em;
     justify-content: center
 }
 
 .container-horizontal{
+    height: auto;
     display: flex;
     flex-direction: row;
     width: 45%;
@@ -15,7 +15,7 @@
 .container-vertical {
     display: flex;
     flex-direction: column;
-    width: 45%; 
+    width: 45%;
 }
 
 .item-default {
@@ -30,17 +30,18 @@
 }
 .item{
     background: red;
-    height: calc(100%/2);
+    height: calc((100%/2) - 4px)
 }
 
 .item-title {
     color : #333;
-    padding: 1em;
+    padding: 30;
     display: block;
+    font-size: 1em;
 }
 
 .item-subtitle{
-    font-size: 23px;
+    font-size: 1.5em;
     letter-spacing: -1px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -53,7 +54,8 @@
 .main-item-title{
     font-family: 'Open Sans', sans-serif;
     display: block;
-    font-size: 38;
+    font-size: 2.4em;
+    line-height: 1.3em;
     padding: 0 30 0 30;
     font-weight: bold;
     color: darkred;
@@ -69,6 +71,6 @@
 
 .img-bg {
     background-image: url("/img/alemanha22.jpg");
-background-size: 100%;
+    background-size: 100%;
     background-repeat:   no-repeat; 
 }
